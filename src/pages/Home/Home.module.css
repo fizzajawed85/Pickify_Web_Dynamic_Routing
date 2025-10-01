@@ -1,0 +1,33 @@
+.home {
+  background: #ffffff;
+  color: #222831;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222831;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  .home {
+    padding-top: 120px; /* navbar ke neeche space */
+  }
+
+  .cardContainer {
+    flex-direction: column; /* cards vertical stack ho jaye */
+    align-items: center;    /* center align */
+  }
+}

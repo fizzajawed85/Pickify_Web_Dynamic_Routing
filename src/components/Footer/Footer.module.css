@@ -1,0 +1,16 @@
+.footer {
+  background: #222831;
+  color: #DFD0B8;
+  text-align: center;
+  padding: 24px;
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.tex {
+  color: #DFD0B8;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+}

@@ -1,0 +1,66 @@
+.navbar {
+  background: #222831;
+  border-bottom: 5px solid #DFD0B8;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #DFD0B8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  color: #DFD0B8;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: #DFD0B8;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: #f1f4f8;
+}
+
+.menuIcon {
+  display: none;
+  font-size: 22px;
+  color: #DFD0B8;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block;
+  }
+  .navLinks {
+    position: absolute;
+    top: 40px;
+    left: -100%;
+    width: 100%;
+    background: #222831;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    transition: 0.3s ease;
+  }
+  .navLinks.active {
+    left: 0;
+  }
+}

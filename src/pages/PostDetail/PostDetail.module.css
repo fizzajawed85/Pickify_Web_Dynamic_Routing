@@ -1,0 +1,21 @@
+.detail {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #222831;
+  box-shadow: 0 4px 8px rgba(34, 40, 49, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.detail img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.detail h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #222831;
+  margin-bottom: 10px;
+}
